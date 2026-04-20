@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: ${db.username}
+    username: debuggeandoideas
     hikari:
-      maximum-pool-size:  ${db.maximum-pool-size}
-      connection-timeout: ${db.connection-timeout}
-    url: ${db.url}
-    password: ${db.password}
+      maximum-pool-size:  5
+      connection-timeout: 20000
+    url: jdbc:postgresql://localhost:5432/companies
+    password: udemy
